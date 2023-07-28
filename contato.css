@@ -1,0 +1,14 @@
+
+body {
+    margin: 0;
+    background-image: url(images/Waves\ parck.png);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+  h3{
+    color: rgb(0, 17, 255);
+  }
+  h4{
+    color: black;
+  }
