@@ -2,7 +2,6 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url(images/Waves\ parck.png);
   background-size: cover;
   background-position: center;
   font-family: Arial, sans-serif;
@@ -87,5 +86,58 @@ h4{
 }
 
 .contato {
-  margin-top: 110px;
+  margin-top: 135px;
+  font-size: 35px;
+  border-left: 65px solid white;
+  
+}
+
+.informações {
+  border-left: 120px solid white;
+}
+
+#suainfo ul {
+  list-style: none;
+  border: 1px solid black;
+}
+
+#suainfo li {
+  position: relative;
+  border-right: 1px solid black;
+}
+
+#suainfo li a {color: black; text-decoration: none; padding: 5px 10px; display: block;}
+
+
+#suainfo li a:hover{
+  background:#333; 
+  color:#fff; 
+  -moz-box-shadow:0 3px 10px 0 #CCC; 
+  -webkit-box-shadow:0 3px 10px 0 #ccc; 
+  text-shadow:0px 0px 5px #fff; 
+}
+
+#suainfo li  ul{
+  position:absolute; 
+  top:25px; 
+  left:0;
+  background-color:#fff; 
+  display:none;
+}  
+
+#suainfo li:hover ul, #suainfo li.over ul{display:block;}
+
+#suainfo li ul li{
+  border:1px solid #c0c0c0; 
+  width:150px;
+  }
+
+header, #suainfo, #suainfo ul{
+ display: flex;
+}
+
+#suainfo{
+ flex: 1; /* isto é para a nav ocupar a largura toda menos a logo */
+ justify-content: center; /* alinha horizontalmente */
+ align-items: center;
 }
