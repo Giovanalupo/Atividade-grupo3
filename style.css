@@ -15,10 +15,6 @@ body {
     padding-right: 30px;
 }
 
-.header a {
-    font-size: x-large;
-}
-
 #logo {
     width: 105px;
     height: auto;
@@ -43,6 +39,13 @@ nav {
 .navbar a {
     color: black;
     text-decoration: none;
+    font-size: x-large;
+}
+
+.navbar a:hover {
+    transition: 0.5s;
+    margin-top: -7px;
+    text-decoration: underline;
 }
 
 .pesquisa {
@@ -67,9 +70,27 @@ nav {
 
 .slides img {
     width: 100%;
+    margin: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 100%);
 }
 
 .principais {
     display: flex;
     justify-content: center;
+}
+
+.fotol {
+    margin: 0;
+}
+.fotol img{
+    width: 100vh;
 }
