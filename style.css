@@ -57,15 +57,15 @@ nav {
     padding-left: 10px;
     padding-right: 25px;
     margin-right: 10px;
-    height: 20px;
-    width: 160px;
+    height: 30px;
+    width: 180px;
     border-radius: 15px;
     background-color: white;
 }
 
 .pesquisa button {
     border-radius: 15px;
-    height: 25px;
+    height: 35px;
     margin-left: -35px;
 }
 
@@ -169,6 +169,13 @@ nav {
 
 .funcionamento li {
     font-size: 1.5rem;
+}
+
+.funcionamento span {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
 }
 
 #titulo {
