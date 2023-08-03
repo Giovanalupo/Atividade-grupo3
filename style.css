@@ -235,10 +235,16 @@ nav {
     margin-top: -30px;
     background-color: #00ffff;
     text-align: center;
+    height: 130px;
 }
 
 #footer img {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     width: 35px;
+}
+
+#footer img:hover {
+    transition: 0.5s;
+    margin-bottom: -7px;
 }
