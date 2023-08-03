@@ -67,3 +67,8 @@ nav {
 .slides img {
     width: 100%;
 }
+
+.principais {
+    display: flex;
+    justify-content: center;
+}
