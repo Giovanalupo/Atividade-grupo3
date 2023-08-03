@@ -120,12 +120,12 @@ h4{
 #suainfo li  ul{
   position:absolute; 
   top:25px; 
-  left:0;
+left:0;
   background-color:#fff; 
-  display:none;
-}  
+    display:none;
+  }  
 
-#suainfo li:hover ul, #suainfo li.over ul{display:block;}
+  #suainfo li:hover ul, #suainfo li.over ul{display:block;}
 
 #suainfo li ul li{
   border:1px solid #c0c0c0; 
