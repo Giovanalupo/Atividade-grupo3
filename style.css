@@ -49,6 +49,7 @@ nav {
 }
 
 .pesquisa {
+    height: auto;
     margin-right: 5%;
 }
 
@@ -70,7 +71,7 @@ nav {
 
 .slides img {
     width: 100%;
-    margin: 0;
+    margin-bottom: 70px;
 }
 
 .container {
@@ -79,18 +80,93 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    height: auto;
     background: rgb(0,212,255);
-    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 100%);
+    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(0,165,199,1) 100%);
+    margin-bottom: 70px;
 }
 
-.principais {
+.Caracteristicas {
+    margin: 0;
+    width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+}
+
+.principais h2 {
+    font-size: 5rem;
+}
+
+.principais li {
+    font-size: 1.5rem;
+}
+
+.principais button {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: black;
+    border: 2px;
+    font-size: 1.5rem;
+    border: 2px solid;
+    background-color: transparent;
+    gap: 5px;
+}
+
+.principais button:hover {
+    background-color: rgba(255, 255, 255, 0.537);
+    border-color:  rgba(255, 255, 255, 0.537);
+}
+
+.principais button a {
+    text-decoration: none;
+    color: black;
 }
 
 .fotol {
     margin: 0;
 }
 .fotol img{
-    width: 100vh;
+    width: 107vh;
+    height: 100%;
+}
+
+.container2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background: rgb(255,191,80);
+    background: radial-gradient(circle, rgba(255,191,80,1) 0%, rgba(255,217,152,1) 100%);
+}
+
+.container2 img {
+    margin: 0;
+    width: 107vh;
+}
+
+.horario {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.funcionamento h2 {
+    font-size: 5rem;
+}
+
+.funcionamento li {
+    font-size: 1.5rem;
 }
