@@ -22,3 +22,22 @@ body {
         margin-top: 90px;
     }
     
+    footer {
+      background-color: #ff9900; /* Laranja */
+      padding: 20px;
+    }
+    
+    .rodape {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    img {
+      width: 100px;
+    }
+    
+    p {
+      color: #ffff00; /* Amarelo */
+    }
+    
