@@ -1,6 +1,5 @@
 
 body {
-<<<<<<< HEAD
   padding: 0;
   margin: 0;
   background-image: url(images/Waves\ parck.png);
@@ -90,40 +89,3 @@ h4{
 .contato {
   margin-top: 110px;
 }
-=======
-    margin: 0;
-    background-image: url(images/Waves\ parck.png);
-    background-size: cover;
-    background-position: center;
-    font-family: bolder, sans-serif;
-  }
-  h3{
-    color: rgb(0, 17, 255);
-  }
-  h4{
-    color: black;
-  }
-.redes-sociais  {
-    height: 1px;
-}
-
-    .Rodape2{
-        margin-top: 90px;
-    }
-    
-    footer {
-      background-color: #ff9900; /* Laranja */
-      padding: 20px;
-    }
-    
-    .rodape {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    
-    img {
-      width: 50px;
-    }
-    
->>>>>>> ca6fa65dc579d1638ef9f2e1512ed1624e8104e6
