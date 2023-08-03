@@ -21,7 +21,7 @@ body {
   margin-right: 2%;
 }
 
-nav {
+.nav {
   width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -85,9 +85,10 @@ nav {
     max-width: 100%;
     border-radius: 5px;
   }
-  footer {
+  .Rodapé {
     background-color: #112233;
     color: white;
     text-align: center;
     padding: 20px 0;
+    margin: 0;
   }
