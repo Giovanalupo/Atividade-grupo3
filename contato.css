@@ -4,7 +4,7 @@ body {
     background-image: url(images/Waves\ parck.png);
     background-size: cover;
     background-position: center;
-    font-family: Arial, sans-serif;
+    font-family: bolder, sans-serif;
   }
   h3{
     color: rgb(0, 17, 255);
@@ -15,9 +15,7 @@ body {
 .redes-sociais  {
     height: 1px;
 }
-    .Rodape{
-    margin-left: 93%;
-    }
+
     .Rodape2{
         margin-top: 90px;
     }
@@ -34,10 +32,6 @@ body {
     }
     
     img {
-      width: 100px;
-    }
-    
-    p {
-      color: #ffff00; /* Amarelo */
+      width: 50px;
     }
     
