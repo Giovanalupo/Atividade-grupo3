@@ -1,0 +1,51 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #112233;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  nav {
+    background-color: #445566;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  nav a:hover {
+    background-color: #112233;
+  }
+  .attractions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .attraction {
+    width: 30%;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .attraction img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  footer {
+    background-color: #112233;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
