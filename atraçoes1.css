@@ -85,10 +85,14 @@ body {
     max-width: 100%;
     border-radius: 5px;
   }
-  .Rodapé {
-    background-color: #112233;
+  footer {
+    
+    padding: 20px 10;
+    margin-right: 100;
+    margin-left: 100;  
+    background-color: hsl(196, 50%, 40%);
     color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin: 0;
+    height: 150px;
+    width: 1263px;
+
   }
