@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
 
@@ -81,49 +82,69 @@
               <li>Segunda a sexta-feira: 10h às 18h</li>
               <li>Sábado e domingo: 9h às 19h</li>
             </ul>
+            <span class="material-symbols-outlined">alarm</span>
         </section>
       </div>
     </div>
-    <!-- Ingressos -->
     <div id="ingressos">
-        <h2>Ingressos</h2>
+      <!-- Ingressos -->
+      <h2 id="titulo">Ingressos</h2>
+      <div class="ingressos">
         <!-- Criança -->
-        <div class="cianca">
+        <div class="ingresso">
           <h1>Infantil:</h1>
           <p>Ingresso dedicado para pessoas de 3 à 12 anos de idade, as crianças devem estar acompanhadas por um adulto. O ingresso infantil garante que a criança tenha a melhor experiência dentro do nosso parque aquático. <b> Certifique-se de mostrar o documento do portador do ingresso na entrada.</b></p>
           <h2>R$ 25,00</h2>
           <h4>O que inclui?</h4>
+          <div id="pode">
           <p><span class="material-symbols-outlined">check_circle</span> Entrada em brinquedos infantil</p>
           <p><span class="material-symbols-outlined">check_circle</span> Parte no grupo infantil com monitores</p>
           <p><span class="material-symbols-outlined">check_circle</span> Participação em atividades especiais</p>
           <p><span class="material-symbols-outlined">check_circle</span> Área recreativa</p>
+          </div>
+          <div id="naopode">
           <p><span class="material-symbols-outlined">cancel</span> Entrada em brinquedos no qual a criança não tem altura</p>
           <p><span class="material-symbols-outlined">cancel</span> Área Adulta</p>
           <p><span class="material-symbols-outlined">cancel</span> Bingo</p>
+          </div>
         </div>
         <!-- Adulto -->
-        <div class="adulto">
+        <div class="ingresso">
           <h1>Adulto:</h1>
           <p>Ingresso destinado à adultos, mantendo a experiência mais confortavel e relaxante. Se o adulto estiver acompanhado por uma criança, ele pode ficar tranquilo enquanto ela brinca e se diverte com os nossos monitores qualificados e salva-vidas dispostos e preparados para qualquer ocasião. <b>Certifique-se de mostrar o documento do portador do ingresso na entrada.</b></p>
           <h2>R$ 50,00</h2>
           <h4>O que inclui?</h4>
-          <p><span class="material-symbols-outlined">check_circle</span> Entrada <b>TODOS os brinquedos</b>, caso tenha altura suficiente</p>
+          <div id="pode">
+          <p><span class="material-symbols-outlined">check_circle</span> Entrada <b>TODOS</b> os brinquedos, caso tenha altura suficiente</p>
           <p><span class="material-symbols-outlined">check_circle</span> Área adulta</p>
+          </div>
+          <div id="naopode">
           <p><span class="material-symbols-outlined">cancel</span> Entrada nas Áreas kids (somente pais)</p>
           <p><span class="material-symbols-outlined">cancel</span> Bingo</p>
           <p><span class="material-symbols-outlined">cancel</span> Comida e bebida à vontade</p>
+          </div>
         </div>
         <!-- Idoso -->
-        <div class="Idoso">
+        <div class="ingresso">
           <h1>Idoso:</h1>
           <p>Ingresso dedicado à melhor idade (à cima de 60 anos), proporcionando a melhor experiência dentro de nosso "Park". <b>Certifique-se de mostrar o documento do portador do ingresso na entrada.</b></p>
           <h2>R$ 20,00</h2>
           <h4>O que inclui?</h4>
-        </div>
-
+          <div id="pode">
+          <p><span class="material-symbols-outlined">check_circle</span> Área adulta</p>
+          <p><span class="material-symbols-outlined">check_circle</span> Entrada <b>TODOS</b> os brinquedos, caso tenha altura suficiente</p>
+          <p><span class="material-symbols-outlined">check_circle</span> Bingo (Sem custo, apenas por lazer)</p>
+          </div>
+          <div id="naopode">
+          <p><span class="material-symbols-outlined">cancel</span> Entrada na área kids (somente avôs e avós)</p>
+          <p><span class="material-symbols-outlined">cancel</span> Comida e bebida à vontade</p>
+          </div>
+      </div>
     </div>
+  </div>
     <!-- Nossos números -->
-    <section class="numeros">
+    <div class="numeros">
+      <section class="numeros">
         <h2>Nossos números</h2>
         <ul>
           <li>500.000 de visitantes por ano</li>
@@ -131,19 +152,20 @@
           <li>97% de satisfação do cliente</li>
         </ul>
       </section>
+    </div>
   </main>
 
   <!-- ___________________________________________________________________ -->
   <!-- Rodapé -->
 
-  <footer>
-    <p>Copyright &copy; 2023 Parque Aquático</p>
- <div class="redes-sociais">
-      <a href="#">Facebook</a>
-      <a href="#">Twitter</a>
-      <a href="#">Instagram</a>
-    </div>
-  </footer>
+<footer id="footer">
+  <p>Copyright &copy; 2023 Parque Aquático</p>
+  <div class="redes-sociais">
+    <a href="#"><img src="images/face.png"></a>
+    <a href="#"><img src="images/twitter.png"></a>
+    <a href="#"><img src="images/instagram.png"></a>
+  </div>
+</footer>
 
 </body>
 </html>

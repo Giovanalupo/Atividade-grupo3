@@ -22,7 +22,7 @@ body {
 }
 
 nav {
-    width: 700px;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -31,7 +31,9 @@ nav {
 }
 
 .navbar {
-    width: 700px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -57,15 +59,15 @@ nav {
     padding-left: 10px;
     padding-right: 25px;
     margin-right: 10px;
-    height: 20px;
-    width: 160px;
+    height: 30px;
+    width: 180px;
     border-radius: 15px;
     background-color: white;
 }
 
 .pesquisa button {
     border-radius: 15px;
-    height: 25px;
+    height: 35px;
     margin-left: -35px;
 }
 
@@ -103,7 +105,7 @@ nav {
 }
 
 .principais button {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -169,4 +171,82 @@ nav {
 
 .funcionamento li {
     font-size: 1.5rem;
+}
+
+.funcionamento span {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+#titulo {
+    padding-top: 100px;
+    margin-top: 0;
+    font-size: 2.4rem;
+    text-align: center;
+    color: #005757;
+}
+
+#ingressos {
+    background-image: url(images/fundp.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.ingressos {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+#pode span {
+    color: rgb(0, 255, 0);
+}
+
+#naopode span {
+    color: red;
+}
+
+.numeros {
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background: rgb(0,255,255);
+    background: linear-gradient(0deg, rgba(0,255,255,1) 0%, rgba(63,72,204,1) 100%);
+    align-items: center;
+    flex-direction: column;
+}
+
+.numeros h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.numeros li {
+    color: white;
+    font-size: 1.4rem;
+}
+
+#footer {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+    background-color: #00ffff;
+    text-align: center;
+    height: 130px;
+}
+
+#footer img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 35px;
+}
+
+#footer img:hover {
+    transition: 0.5s;
+    margin-bottom: -7px;
 }

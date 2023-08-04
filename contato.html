@@ -2,10 +2,10 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
   <title>Contato</title>
   <!-- Favicon -->
-  <link rel="shortcut icon" href="#" type="image/x-icon" />
+  <link rel="shortcut icon" href="images/logo AQUA.jpg" type="image/x-icon"/>
   <!-- Estilos (Link CSS) -->
   <link rel="stylesheet" href="contato.css">
 </head>
@@ -14,78 +14,84 @@
   <!-- ___________________________________________________________________ -->
   <!-- Cabeçalho -->
 
-  <header>
-    <div class="header">
-      <img src="images/logo AQUA.jpg" alt="Logo do Parque Aquático" id="logo">
-      <h1>Waves Park</h1>
-      <!-- Links -->
-      <nav>
-        <div class="navbar">
-          <a href="index.html">Home</a>
-          <a href="atracoes.html">Atrações</a>
-          <a href="contato.html">Formulário de contato</a>
-          <a href="#ingressos">Ingressos</a>
-        </div>
-      </nav>
-      <!-- Barra de pesquisa -->
-      <div class="pesquisa">
-        <input type="text" placeholder="O que procura?">
-        <button type="submit">Pesquisar</button>
+<header>
+  <!-- Barra de pesquisa -->
+  <div class="header">
+    <img src="images/logo AQUA.jpg" alt="Logo do Parque Aquático" id="logo">
+    <h1>Waves Park</h1>
+    <!-- Links -->
+    <nav>
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="atracoes.html">Atrações</a>
+        <a href="contato.html">Formulário de contato</a>
+        <a href="#ingressos">Ingressos</a>
       </div>
+    </nav>
+    <!-- Barra de pesquisa -->
+    <div class="pesquisa">
+      <input type="text" placeholder="O que procura?">
+      <button type="submit">Pesquisar</button>
     </div>
-  </header>
+  </div>
+</header>
 
   <!-- ___________________________________________________________________ -->
   <!-- Sessão contato -->
-
-  <section class="contato">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac+Eastern:wght@500&display=swap');
-      </style>
-    <h2> Contato </h2>
-  </section>
-
-<section class="informações">
-  <h3>  <p>Endereço: </p></h3> 
+<div class="titulo">
+  <h2>Contato</h2>
+</div>
+<div class="contato">
+  <section class="informacoes">
+    <div class="info">
+    <h3><p>Endereço:</p></h3> 
     <h4><p>Rua Acapulco 33,Guaruja SP</p></h4>
-   <h3><p>Telefone: </p> </h3>
-   <h4> <p> (11) 4002-8922 </p></h4>
-    <h3><p>E-mail: </p> </h3>
+    </div>
+    <div class="info">
+    <h3><p>Telefone:</p></h3>
+    <h4><p>(11) 4002-8922</p></h4>
+    </div>
+    <div class="info">
+    <h3><p>E-mail:</p></h3>
     <h4><p>Wavespark@faleconosco.com.br</p></h4>
-</section>
-    
-<nav id="suainfo">
+    </div>
+  </section>
+</div>
+<div class="suainfo">
+  <nav id="suainfo">
     <form action="contact.php" method="post">
-      <input type="text" name="name" placeholder="Nome"><br>
-     
-      <input type="email" name="email" placeholder="E-mail"><br>
-
-
-      <input type="text" name="text" placeholder="Mensagem"><br>
-     
-      <input type="submit" value="Enviar"><Br>
+      <input type="text" name="name" placeholder="Nome" id="nome"><br>
+      <input type="email" name="email" placeholder="E-mail" id="email"><br>
+      <textarea id="my-textarea" class="auto_height" placeholder="Mensagem"></textarea><br>
+      <input type="submit" value="Enviar" id="enviar">
     </form>
-</nav>
+  </nav>
+</div>
+
+<script>
+  function auto_height(elem) {
+    /* javascript */
+    elem.style.height = "1px";
+    elem.style.height = (elem.scrollHeight)+"px";
+}
+
+var myTextarea = document.getElementById("my-textarea");
+myTextarea.addEventListener("input", function () {
+    auto_height(this);
+});
+
+</script>
 
   <!-- ___________________________________________________________________ -->
   <!-- Rodapé -->
-
-  
-
-    <div class="redes-sociais">
-      <a href="#"><img src="images/images-removebg-preview (4).png" alt="" height="50px"></a>
-      <a href="#"><img src="images/youtube.avif" alt="" height="50px"></a>
-      <a href="#"><img src="images/intagran.png" alt="" height="50px"></a><BR><br><Br>
-
-    </div>
-    <br><br><br>
-     <!-- ___________________________________________________________________ -->
-  <!-- Rodapé -->
-  <footer>
-    <div class="rodape">
-      <p>Direitos Reservados © 2021</p>
-    </div>
-  </footer>
+<footer id="footer">
+  <p>Copyright &copy; 2023 Parque Aquático</p>
+  <div class="redes-sociais">
+    <a href="#"><img src="images/face.png"></a>
+    <a href="#"><img src="images/twitter.png"></a>
+    <a href="#"><img src="images/instagram.png"></a>
+  </div>
+</footer>
   
 
 </body>

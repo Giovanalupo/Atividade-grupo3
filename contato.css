@@ -1,10 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac+Eastern:wght@500&display=swap');
 body {
   padding: 0;
   margin: 0;
-  background-size: cover;
-  background-position: center;
-  font-family: Arial, sans-serif;
 }
 
 .header {
@@ -19,10 +16,6 @@ body {
   padding-right: 30px;
 }
 
-.header a {
-  font-size: x-large;
-}
-
 #logo {
   width: 105px;
   height: auto;
@@ -30,7 +23,7 @@ body {
 }
 
 nav {
-  width: 700px;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -39,7 +32,9 @@ nav {
 }
 
 .navbar {
-  width: 700px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: space-between;
 }
@@ -47,9 +42,17 @@ nav {
 .navbar a {
   color: black;
   text-decoration: none;
+  font-size: x-large;
+}
+
+.navbar a:hover {
+  transition: 0.5s;
+  margin-top: -7px;
+  text-decoration: underline;
 }
 
 .pesquisa {
+  height: auto;
   margin-right: 5%;
 }
 
@@ -57,87 +60,153 @@ nav {
   padding-left: 10px;
   padding-right: 25px;
   margin-right: 10px;
-  height: 20px;
-  width: 160px;
+  height: 30px;
+  width: 180px;
   border-radius: 15px;
   background-color: white;
 }
 
 .pesquisa button {
   border-radius: 15px;
-  height: 25px;
+  height: 35px;
   margin-left: -35px;
 }
 
-h3{
-  color: rgb(0, 17, 255);
-}
-
-h4{
-  color: black;
-}
-
-.redes-sociais  {
-  height: 1px;
-}
-
-.Rodape{
-  margin-left: 100px;
+.titulo {
+  display: flex;
+  margin-top: 105px;
+  margin-bottom: 0;
+  width: 100%;
+  justify-content: center;
+  font-size: 1.5rem;
 }
 
 .contato {
-  margin-top: 135px;
-  font-size: 35px;
-  border-left: 65px solid white;
-  
+  display: flex;
+  justify-content: center;
 }
 
-.informações {
-  border-left: 120px solid white;
+.informacoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
 }
 
-#suainfo ul {
-  list-style: none;
-  border: 1px solid black;
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
 }
 
-#suainfo li {
-  position: relative;
-  border-right: 1px solid black;
+.contato h3 {
+  margin: 0;
+  color: blue;
+  font-size: 1.5rem;
 }
 
-#suainfo li a {color: black; text-decoration: none; padding: 5px 10px; display: block;}
-
-
-#suainfo li a:hover{
-  background:#333; 
-  color:#fff; 
-  -moz-box-shadow:0 3px 10px 0 #CCC; 
-  -webkit-box-shadow:0 3px 10px 0 #ccc; 
-  text-shadow:0px 0px 5px #fff; 
+.contato h4 {
+  font-size: 1.5rem;
+  margin: 0;
 }
 
-#suainfo li  ul{
-  position:absolute; 
-  top:25px; 
-  left:0;
-  background-color:#fff; 
-  display:none;
-}  
-
-#suainfo li:hover ul, #suainfo li.over ul{display:block;}
-
-#suainfo li ul li{
-  border:1px solid #c0c0c0; 
-  width:150px;
-  }
-
-header, #suainfo, #suainfo ul{
- display: flex;
+.suainfo {
+  margin-bottom: 20px;
 }
 
-#suainfo{
- flex: 1; /* isto é para a nav ocupar a largura toda menos a logo */
- justify-content: center; /* alinha horizontalmente */
- align-items: center;
+#suainfo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+#nome {
+  padding-left: 10px;
+  border-radius: 50px;
+  height: 30px;
+  width: 300px;
+  margin-bottom: 20px;
+  border: 2px solid aqua;
+}
+
+#nome:hover {
+  border-color: darkblue;
+}
+
+#email {
+  padding-left: 10px;
+  border-radius: 50px;
+  height: 30px;
+  width: 300px;
+  margin-bottom: 20px;
+  border: 2px solid aqua;
+}
+
+#email:hover {
+  border-color: darkblue;
+}
+
+.auto_height {
+  width: 100%;
+  padding-left: 10px;
+  padding-bottom: 0;
+  border-radius: 20px;
+  height: auto;
+  width: 300px;
+  margin-bottom: 20px;
+  border: 2px solid aqua;
+}
+
+.auto_height:hover {
+  border-color: darkblue;
+}
+
+#enviar {
+  width: 30%;
+  height: 30px;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #00ffff;
+  text-align: center;
+  height: 130px;
+}
+
+#footer img {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 35px;
+}
+
+#footer img:hover {
+  transition: 0.5s;
+  margin-bottom: -7px;
 }
